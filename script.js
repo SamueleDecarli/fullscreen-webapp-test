@@ -63,16 +63,16 @@ for (let i = 0; i < 500; ++i) {
 }
 
 
-// function resizeDiv() {
-//   innerContainer.style.width = `${window.innerWidth}px`;
-//   innerContainer.style.height = `${window.innerHeight}px`;
-//   outerContainer.style.width = `${window.innerWidth}px`;
-//   outerContainer.style.height = `${window.innerHeight}px`;
-// }
+function resizeDiv() {
+  innerContainer.style.width = `${window.innerWidth}px`;
+  innerContainer.style.height = `${window.innerHeight}px`;
+  outerContainer.style.width = `${window.innerWidth}px`;
+  outerContainer.style.height = `${window.innerHeight}px`;
+}
 
-// window.addEventListener("resize", resizeDiv);
-// resizeDiv();
+window.addEventListener("resize", resizeDiv);
+resizeDiv();
 
-// window.addEventListener("load",() => {
-//   requestAnimationFrame(() =>  window.scrollTo(0, 1));
-// });
+window.addEventListener("load",() => {
+  requestAnimationFrame(() =>  window.scrollTo(0, 1));
+});
