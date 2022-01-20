@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <title>Fullscreen test</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="outer-container">
+    <div id="items-browser">
+      <h2>Items</h2>
+      <ul id="items-list"></ul>
+    </div>
+    <div id="inner-container" style="display: none;">
+      <p id="text-container">Hello fullscreen world!</p>
+      <button type="button" id="exit-viewer-button">Exit Viewer</button>
+      <button type="button" id="fullscreen-button">Enter fullscreen</button> 
+      <div id="footer-container">
+        <span id="footer-text">Bottom bar</span>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
