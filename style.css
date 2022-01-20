@@ -38,7 +38,7 @@ body {
   font-size: large;
 }
 
-#footer-container {
+#footer-container, #header-container {
   width: 100vw;
   height: 2em;
   background-color: yellow;
